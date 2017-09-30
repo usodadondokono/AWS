@@ -1,0 +1,9 @@
+version: "2"
+services:
+  ds:
+    build: .
+    ports:
+     - "8888:8888"
+    volumes:
+     - .:/src
+    tty: true 
